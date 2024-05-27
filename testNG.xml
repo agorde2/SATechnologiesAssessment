@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E2E Assessment">
+  <test thread-count="1" name="Interview Assessment Test">
+    <classes>
+      <class name="testCases.E2E">
+        <methods>
+          <include name="E2EAssessment"/>
+        </methods>
+      </class> <!-- testCases.E2E -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
